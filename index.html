@@ -1,0 +1,1040 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- Meta Tags -->
+      <meta name="description" content="Полный комплекс услуг для вашего бизнеса. От разработки сайтов до полного комплекса маркетинга." />
+      <meta name="author" content="артисити" />
+      <title>Витарти - веб-студия</title>
+      <!-- http://crm.emailplus.ru/sites/15/1475919780/iconall.php -->
+      <!--  http://evity.ru/
+         http://romi-marketing.ru/because_us
+         http://r-context.ru/
+         http://adsolution.pro/
+         http://site001.ru/
+         http://vitarts.ru/		
+		 http://colornew.ru/	
+http://лендинги.рф/		
+http://webarmada.ru/ -->
+      <!-- Favicons:: Replace with yours -->
+      <link rel="shortcut icon" href="img/favicons/favicon-32x32.png">
+      <!-- Stylesheets and Fonts-->
+      <!-- <link href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400italic,700|Oxygen:400,300,700' rel='stylesheet' type='text/css'> -->
+      <link rel="stylesheet" href="css/foundation.min.css" />
+      <link rel="stylesheet" href="css/main.min.css" />
+      <link rel="stylesheet" href="css/animate.css">
+      <link rel="stylesheet" href="css/animsition.min.css">
+      <link rel="stylesheet" href="css/icomoon.css" />
+      <link rel="stylesheet" href="css/intro.css" />
+      <link rel="stylesheet" href="css/introcondensed.css" />
+      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="css/pogo-slider.min.css">
+      <link rel="stylesheet" id="default" href="css/colors/colors.css" />
+	        <!-- <link rel="stylesheet" href="css/style.css"> <!-- смартлид  -->
+      <!-- Scripts -->
+      <script src="js/vendor/jquery.min.js"></script>
+	  
+      <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+      <!--[if lt IE 9]>
+      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+      <![endif]-->
+      <script>
+         function showDetails(anim) {
+             var button = anim.getAttribute("data-button");
+             var descript = anim.getAttribute("data-descript");
+			 
+             document.getElementById("button").innerHTML = button;
+             document.getElementById("descript").innerHTML = descript;
+         }
+      </script>
+	  
+	  	 <script type="text/javascript">
+
+var months=new Array(13);
+months[1]="января";
+months[2]="февраля";
+months[3]="марта";
+months[4]="апреля";
+months[5]="мая";
+months[6]="июня";
+months[7]="июля";
+months[8]="августа";
+months[9]="сентября";
+months[10]="октября";
+months[11]="ноября";
+months[12]="декабря";
+
+var time=new Date();
+var thismonth=months[time.getMonth() + 1];
+var date=time.getDate();
+var thisyear=time.getYear();
+var day=time.getDay() + 1;
+
+if (thisyear < 2000)
+thisyear = thisyear + 1900;
+if(day==1) DayofWeek = "Воскресенье.";
+if(day==2) DayofWeek = "Понедельник.";
+if(day==3) DayofWeek = "Вторник.";
+if(day==4) DayofWeek = "Среда.";
+if(day==5) DayofWeek = "Четверг.";
+if(day==6) DayofWeek = "Пятница.";
+if(day==7) DayofWeek = "Суббота.";
+
+// document.write( "<center>"+ date + " ");
+// document.write(thismonth + " " + thisyear + " "+ "года" + ","+" " + DayofWeek + "<\/center>");
+
+</script> 
+   </head>
+   <body class="fullWidth">
+      <!--   <div id="loading" class="loadSpinner">
+         <div id="loading-center">
+           <div id="loading-center-absolute">
+             <div class="object" id="object_four"></div>
+             <div class="object" id="object_three"></div>
+             <div class="object" id="object_two"></div>
+             <div class="object" id="object_one"></div>
+           </div>
+         </div>
+         </div> -->
+      <div class="animsition">
+      <header class="relPosition transparentHeader bgBlack">
+         <div id="autoHide" class="headerWrapper fixedHeader">
+            <div class="row stretched">
+               <div class="navWrapper clearfix">
+                  <div class="small-12 medium-12 large-4 columns">
+                     <!-- Logo Area -->
+                     <div id="logo">
+                        <a href="index.html"><img src="img/logo-white.png" alt="Altius Logo"></a>
+                     </div>
+                  </div>
+                  <div class="small-12 medium-12 large-8 columns noPaddingRight">
+                     <!-- ==========================================
+                        Menu Starts 
+                        =============================================== -->
+                     <div id="mobileMenuTrigger" class="hide-for-large-up"><i class="icon-menu"></i></div>
+                     <nav id="primaryMenu">
+                        <ul class="clearfix">
+                           <li><a href="#akciya">Акция</a></li>
+                           <li><a href="#yslygi">Услуги</a></li>
+                           <li><a href="#otvet">Ответы на вопросы</a></li>
+                           <li><a href="#contact">Контакты</a></li>
+                           <li><a href="tel:+79857755262"><span class="icon-phone3"></span>  7 985 77 55 262</a></li>
+                           <li><a class="navButton" href="#forma" onclick="showDetails(this)" data-button="Заказать обратный звонок" data-descript="Как только ваша заявка попадет к нам, мы ее быстро обработаем. Для этого укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. </br> Гарантируем конфеденциальность ваших данных.">Заказать звонок</a></li>
+                        </ul>
+                     </nav>
+                     <!-- ==========================================
+                        Menu Ends 
+                        =============================================== -->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <div class="heroWrapper relPosition">
+         <!-- Hero Banner Starts -->
+         <div class="heroBlack heroFullScreen relPosition" style="background-image: url('img/main-hero-img-29.jpg');background-position: 50% 50%;">
+            <div class="row clearfix">
+               <div class="heroIntro padding horizontalCenter">
+                  <div class="small-12 medium-9 large-5 columns">
+                     <h2 class="pogoSlider-slide-element" data-in="slideRight" data-out="slideLeft" data-duration="700" data-delay="100">Комплекс услуг для бизнеса</h2>
+                     <div class="divider pogoSlider-slide-element" data-in="slideDown" data-out="slideUp" data-duration="750" data-delay="500"></div>
+                     <p class="pogoSlider-slide-element lead" data-in="expand" data-out="slideRight" data-duration="800" data-delay="600">Ваш бизнес может приносить вам больше прибыли. </br>Получите подарки на <b>23 260 рублей</b> до конца <script>document.write(thismonth); </script>.</p>
+                     <div class="pogoSlider-slide-element ctaBtns" data-in="contract" data-out="slideDown" data-duration="800" data-delay="600">
+                        <a class="button" href="#forma" onclick="showDetails(this)" data-button="Заберите подарки на 23 260 рублей." data-descript="Получите консультацию нашего специалиста по вашему проекту и узнайте как можно забрать подарки. </br> Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. </br> Гарантируем конфеденциальность ваших данных.">Получить консультацию и забрать подарки</a>
+                        <a class="button btnBlack" href="#">Узнать больше об акции</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Hero Banner Ends -->
+      </div>
+      <div class="bgWhite">
+         <div class="row padding clearfix">
+            <h3 class="text-center">Работа с VITARTY одно удовольствие</h3>
+            <div class="dividerCenter"></div>
+            <!-- <p class="text-center">3 Column icon boxes with icon on the right.</p> -->
+            <div class="marginTop small-12 columns">
+               <!-- Simple Icon Boxes Start -->
+               <div class="row" data-equalizer>
+                  <div class="small-12 medium-6 large-4 columns iconBoxSimple" data-equalizer-watch>
+                     <div>
+                        <div class="boxIcon bgBlack">
+                           <span class="icon-linegraph "></span>
+                        </div>
+                        <h5>Высокая конверсия</h5>
+                        <p class="smallText"> Что бы не упустить ни одного потенциального клиента, мы применяме самые последние технологии маркетинга. Выжимаем из вашего проекта все и доводим до максимальной конверсии.</p>
+                     </div>
+                  </div>
+                  <div class="small-12 medium-6 large-4 columns iconBoxSimple noBorder" data-equalizer-watch>
+                     <div>
+                        <div class="boxIcon bgBlack">
+                           <span class="icon-profile-male"></span>
+                        </div>
+                        <h5>Клиенты</h5>
+                        <p class="smallText">Что бы не потерять ни одного клиента, используем мощнейшие технологи продаж и маркетинга. Применяем самые полезные фишки для вашего бизнеса. Ни один лид не пройдет мимо.</p>
+                     </div>
+                  </div>
+                  <div class="small-12 medium-6 large-4 columns iconBoxSimple" data-equalizer-watch>
+                     <div>
+                        <div class="boxIcon bgBlack">
+                           <span class="icon-hotairballoon "></span>
+                        </div>
+                        <h5>Продажи</h5>
+                        <p class="smallText">Создадим продающий сайт, сайт который будет приносить прибыль своим владельцам, а не выкачивать только деньги. Поможем заткнуть дыры в ваших продажах, выведем на новый уровень ваш бизнес. </p>
+                     </div>
+                  </div>
+                  <div class="small-12 medium-6 large-4 columns iconBoxSimple" data-equalizer-watch>
+                     <div>
+                        <div class="boxIcon bgColor">
+                           <span class="icon-heart4"></span>
+                        </div>
+                        <h5>Разумные цены</h5>
+                        <p class="smallText">Не берем лишнего, знаем цену своей работы и смело ее называем. Цены ниже наших конкурентов, качество на высшем уровне, гарантируем.</p>
+                     </div>
+                  </div>
+                  <div class="small-12 medium-6 large-4 columns iconBoxSimple noBorder" data-equalizer-watch>
+                     <div>
+                        <div class="boxIcon bgColor">
+                           <span class="icon-clock3"></span>
+                        </div>
+                        <h5>Кратчайшие сроки</h5>
+                        <p class="smallText">Выполним ваш заказ от семи рабочих дней. На каждом этапе ставим Вас в известность и рекомендуем как сделать качество.</p>
+                     </div>
+                  </div>
+                  <div class="small-12 medium-6 large-4 columns iconBoxSimple" data-equalizer-watch>
+                     <div>
+                        <div class="boxIcon bgColor">
+                           <span class="icon-global"></span>
+                        </div>
+                        <h5>Трафик</h5>
+                        <p class="smallText">Конвертируем трафик и настраиваем на автопилот. Притягваем трафик как магнит.</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- Simple Icon Boxes End -->
+            </div>
+         </div>
+      </div>
+      <div id="section-about" class="row stretched" data-equalizer data-equalize-on="large">
+         <div class="small-12 medium-12 large-4 columns noPadding">
+            <div class="bgWhite" data-equalizer-watch>
+               <div class="row padding">
+                  <div class="small-12 columns">
+                     <h5>Ниши, которые обречены на успех</h5>
+                     <div class="divider"></div>
+                     <h3>Помогаем добиться успехов</h3>
+					 </br>
+                     <a class="button hollow hvr-shutter-in-horizontal" onclick="showDetails(this)" data-button="Стать успешным и никак иначе" data-descript="Повторите успех сильных компаний и станьте лидером в своей нише. </br> Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. </br> Гарантируем конфеденциальность ваших данных." href="#forma">Хочу быть успешным</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="small-12 medium-12 large-8 columns">
+            <!-- Image Grid Boxes Start -->
+            <div class="row">
+               <div class="imageBoxes clearfix">
+                  <div class="small-12 medium-12 large-4 columns noPadding">
+                     <a href="#section-services" class="relPosition" data-equalizer-watch>
+                        <div style="background: url(img/uslugi.png) 50% 50% / cover no-repeat;"></div>
+                        <div class="imageBoxDesc">
+                           <div class="imageBoxesTitle">
+                              <span>Услуги</span>
+                              <div class="divider"></div>
+                           </div>
+                           <p class="smallText">Миллион предпринимателей из разных сфер бизнеса уже зарабатывают при помощи современных технологий продаж.</p>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="small-12 medium-12 large-4 columns noPadding">
+                     <a href="#section-services" class="relPosition" data-equalizer-watch>
+                        <div style="background: url(img/opt.jpg) 50% 50% / cover no-repeat;"></div>
+                        <div class="imageBoxDesc">
+                           <div class="imageBoxesTitle">
+                              <span>Производство / опт</span>
+                              <div class="divider"></div>
+                           </div>
+                           <p class="smallText">Любое производство и оптовые продажи можно вывести на новый уровень. </p>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="small-12 medium-12 large-4 columns noPadding">
+                     <a href="#section-services" class="relPosition" data-equalizer-watch>
+                        <div style="background: url(img/sale.jpg) 50% 50% / cover no-repeat;"></div>
+                        <div class="imageBoxDesc">
+                           <div class="imageBoxesTitle">
+                              <span>Продажи</span>
+                              <div class="divider"></div>
+                           </div>
+                           <p class="smallText">Поможем и улучшим ваш бизнес и создадим сайт для любой ниши, которая занимается продажами.</p>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <!-- Image Grid Boxes End -->
+         </div>
+      </div>
+      <!-- About Section Starts -->
+      <div class="bgWhite">
+         <div class="row relPosition stretched" data-equalizer data-equalize-on="large">
+            <div class="small-12 medium-12 large-5 columns noPadding" data-equalizer-watch>
+               <div class="splitImg padding" style="background-image: url(img/split-image-2.jpg);">
+                  <div>&nbsp;</div>
+               </div>
+            </div>
+            <div class="small-12 medium-12 large-7 columns" data-equalizer-watch>
+               <div class="padding">
+                  <div class="row bgWhite">
+                     <div class="small-12 medium-10 large-10 columns noPadding">
+                        <h4>Интернет агенство &quot;ВИТАРТИ&quot;</h4>
+                        <div class="dividerBlack"></div>
+                        <p class="smallText fontrazm20">Поможем разработать сайт любой сложности и вывести продажи вашего бизнеса на новый уровень.</p>
+                        <!-- <a href="#" class="link">Learn more about us <span class="icon-arrow-right"></span></a> -->
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="counters paddingTop clearfix">
+                        <div class="small-12 medium-4 large-4 columns">
+                           <div class="timer" data-from="0" data-to="6" data-refresh-interval="1" data-speed="500"></div>
+                           <div class="divider"></div>
+                           <h6>Лет на рынке</h6>
+                        </div>
+                        <div class="small-12 medium-4 large-4 columns">
+                           <div class="timer" data-from="0" data-to="5" data-refresh-interval="1" data-speed="500"></div>
+                           <div class="divider"></div>
+                           <h6>Человек в команде</h6>
+                        </div>
+                        <div class="small-12 medium-4 large-4 columns">
+                           <div class="timer" data-from="0" data-to="126" data-refresh-interval="50" data-speed="2000"></div>
+                           <div class="divider"></div>
+                           <h6>Выполненных проектов</h6>
+                        </div>
+                     </div>
+                     <div class="counters paddingTop clearfix">
+                        <div class="small-12 medium-4 large-4 columns">
+                           <div class="timer" data-from="0" data-to="100" data-refresh-interval="10" data-speed="2000"></div>
+                           <div class="divider"></div>
+                           <h6>Процентов гарантии</h6>
+                        </div>
+                        <div class="small-12 medium-4 large-4 columns">
+                           <div class="timer" data-from="0" data-to="7" data-refresh-interval="1" data-speed="500"></div>
+                           <div class="divider"></div>
+                           <h6>Дней среднее время исполение заказа</h6>
+                        </div>
+                        <div class="small-12 medium-4 large-4 columns">
+                           <div class="timer" data-from="0" data-to="3" data-refresh-interval="1" data-speed="500"></div>
+                           <div class="divider"></div>
+                           <h6>Недели окупаемость проекта</h6>
+                        </div>
+                     </div>
+                     </br>
+                     </br>
+                     <a class="button hollow hvr-shutter-in-horizontal" onclick="showDetails(this)" data-button="Сотрудничество с ВИТАРТИ" data-descript="Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. Наш менеджер свяжется с Вами в указанное вами время. </br> Гарантируем конфеденциальность ваших данных." href="#forma">Я хочу с вами сотрудничать</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+	  
+	  <div class="bgWhite">
+         <div class="row relPosition stretched" data-equalizer="out" data-equalize-on="large">
+            <div class="small-12 medium-12 large-6 columns noPadding" data-equalizer-watch="out">
+               <!-- <div class="splitImg padding" style="background-image: url(img/cert_12456468.jpg);"> -->
+               <div class="splitImg padding" style="background: rgba(0, 0, 0, 0);">
+                  <div><img src="img/cert_12456468.jpg"></div>
+               </div>
+            </div>
+            <div class="small-12 medium-12 large-6 columns" data-equalizer-watch="out">
+               <!-- Simple Icon Boxes Start -->
+               <div class="row" data-equalizer="in">
+                  <div class="bgWhite">
+                     <div class="row padding clearfix">
+                        <div class="small-12 medium-12 large-9 columns small-centered columns">
+							<!-- <div class="text-center"><span class="icon-target2" style="font-size: 65px;"></span></div> -->
+                           <h5 class="text-center fontrazm20">Являемся официальными партнерами amoCRM.</h5>
+                           <div class="dividerCenter"></div>
+                           <h3 class="text-center">Внедрим и настроим CRM систему для вашего бизнеса. Ни одна заявка не останется без вашего внимания.</h3>
+                           <div class="row ctaBtns">
+                              <div class="small-12 medium-12 large-9 small-centered columns">
+                                 <a class="button hollow btnBlack small expanded" onclick="showDetails(this)" data-button="Узнайте подробности о внедрении crm системы в ваш бизнес" data-descript="Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. Наш менеджер свяжется с Вами в указанное вами время. </br> Гарантируем конфеденциальность ваших данных."  href="#forma">Узнать подробности</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- About Section Ends -->
+      <div class="bgWhite">
+         <div class="row relPosition stretched" data-equalizer="out" data-equalize-on="large">
+            <div class="small-12 medium-12 large-6 columns" data-equalizer-watch="out">
+               <!-- Simple Icon Boxes Start -->
+               <div class="row" data-equalizer="in">
+                  <div class="bgWhite">
+                     <div class="row padding clearfix">
+                        <div class="small-12 medium-12 large-9 small-centered columns">
+						</br>
+						</br>
+						</br>
+						</br>
+						</br>
+                           <h5 class="text-center fontrazm20">Работаем до результата</h5>
+                           <div class="dividerCenter"></div>
+                           <h3 class="text-center">Наша команда не закончит проект, пока не будет достигнут нужный результ. </h3>
+                           <div class="row ctaBtns">
+                              <div class="small-12 medium-12 large-9 small-centered columns">
+                                 <a class="button hollow btnBlack small expanded" onclick="showDetails(this)" data-button="Узнайте какой результат мы сможем достич для вас" data-descript="Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. Наш менеджер свяжется с Вами в указанное вами время. </br> Гарантируем конфеденциальность ваших данных."  href="#forma">Какой результат получит мой бизнес</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="small-12 medium-12 large-6 columns noPadding" data-equalizer-watch="out">
+               <div class="splitImg padding" style="background-image: url(img/main-hero-img-5.jpg);">
+                  <div>&nbsp;</div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="bgWhite">
+         <div class="row relPosition stretched" data-equalizer="out" data-equalize-on="large">
+            <div class="small-12 medium-12 large-6 columns noPadding" data-equalizer-watch="out">
+               <div class="splitImg padding" style="background-image: url(img/split-image-7.jpg);">
+                  <div>&nbsp;</div>
+               </div>
+            </div>
+            <div class="small-12 medium-12 large-6 columns" data-equalizer-watch="out">
+               <!-- Simple Icon Boxes Start -->
+               <div class="row" data-equalizer="in">
+                  <div class="bgWhite">
+                     <div class="row padding clearfix">
+                        <div class="small-12 medium-12 large-9 columns small-centered columns">
+						</br>
+						</br>
+						</br>
+						</br>
+						</br>
+						<!-- <div class="text-center"><span class="icon-target2" style="font-size: 65px;"></span></div> -->
+                           <h5 class="text-center fontrazm20">Снимаем всю головную боль</h5>
+                           <div class="dividerCenter"></div>
+                           <h3 class="text-center">Выполним ваш проект без нудных ТЗ и брифов. Мы просто подготовим для вас нужное вам решение.</h3>
+                           <div class="row ctaBtns">
+                              <div class="small-12 medium-12 large-9 small-centered columns">
+                                 <a class="button hollow btnBlack small expanded" onclick="showDetails(this)" data-button="Мы подскажем для Вас решение вашей проблемы" data-descript="Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. Наш менеджер свяжется с Вами в указанное вами время. </br> Гарантируем конфеденциальность ваших данных."  href="#forma">Узнать решение</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+	  
+	  
+	  	           <div class="bgGrey">
+            <div class="row padding clearfix" id="akciya">
+               <div class="small-12 columns">
+                  <h3 class="text-center">Акция до конца <script>document.write(thismonth); </script></h3>
+				  
+                  <div class="dividerCenterBlack"></div>
+                  <p class="text-center">Успейте попасть под акцию, которая очень скоро закончится</p>
+               </div>
+            </div>
+         </div>
+      <div class="bgWhite">
+         <div class="row relPosition stretched" data-equalizer="out" data-equalize-on="large">
+            <div class="small-12 medium-12 large-6 columns" data-equalizer-watch="out">
+               <!-- Simple Icon Boxes Start -->
+               <div class="row" data-equalizer="in">
+                  <div class="bgWhite">
+                     <div class="row padding clearfix">
+                        <div class="small-12 medium-12 large-9 columns small-centered columns">
+						</br>
+                           <h5 class="text-center fontrazm20">Горячее предложение</h5>
+                           <div class="dividerCenter"></div>
+                           <h4 ><span class="icon-global" ></span>  &nbsp;Домен: <strike>100 руб.</strike></h4>
+                           <h4 ><span class="icon-cloud4" ></span>  Хостинг на год: <strike>1200 руб.</strike></h4>
+                           <h4 ><span class="icon-desktop2" ></span> Прототип сайта: <strike>9990 руб.</strike></h4>
+                           <h4 ><span class="icon-gears" ></span>  Яндекс Директ: <strike>4990 руб.</strike></h4>
+                           <h4 ><span class="icon-tools-2" ></span> Поддежка сайта: <strike>5 000 руб.</strike></h4>
+                           <h4 ><span class="icon-presentation" ></span> amoCRM: БЕСЦЕННО*</h4>
+						   <h4 ></span>  Яндекс Метрика: <strike>990 руб.</strike></h4>
+                           <h4 ></span>  Google analytics: <strike>990 руб.</strike></h4>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="small-12 medium-12 large-6 columns" data-equalizer-watch="out">
+               <!-- Simple Icon Boxes Start -->
+               <div class="row" data-equalizer="in">
+                  <div class="bgBlack">
+                     <div class="row padding clearfix">
+                        <div class="small-12 medium-12 large-9 columns small-centered columns">
+                           <h5 class="text-center fontrazm20">Заберите подарки</h5>
+                           <h5 class="text-center" style="font-size: 45px;">на 23 260 &#8381;</h5>
+                           <div class="dividerCenter"></div>
+                           <h3 class="text-center">Мы помогаем брендам выделиться из толпы и добиваться успеха с нашей инновационной идеей и первоклассных услуг</h3>
+							<div class="row ctaBtns">
+                              <div class="small-12 medium-12 large-9 small-centered columns">
+                                 <a class="button hollow hvr-shutter-in-horizontal" onclick="showDetails(this)" data-button="Заберите подарки от ВИТАРТИ" data-descript="Домен, хостинг, прототип сайта и настройка яндекс директ ждут вашей заявки. </br>Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. Наш менеджер свяжется с Вами в указанное вами время. </br> Гарантируем конфеденциальность ваших данных."  href="#forma">Забрать подарки и заказать консультацию</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Countdown Timers Start -->
+      <div class="bgColor">
+      <!-- <div class="bgWhite"> -->
+         <div class="row padding clearfix">
+            <h3 class="text-center">До окончания акции осталось</h3>
+            <div class="dividerCenterBlack"></div>
+            <!-- <p class="text-center">Count down the days until a huge event or the pieces of a limited time offer that have left.</p> -->
+            <div class="row">
+               <div class="small-12 medium-10 large-8 small-centered columns">
+                  <div class="countdown" id="counting"></div>
+                  <script>
+                     jQuery(document).on('ready', function() {
+                       var newDate = new Date(2016, 11, 0);
+                       $('#counting').countdown({until: newDate});
+                     });
+                  </script>
+				  </br>
+				  <div class="small-12 medium-12 large-9 small-centered columns">
+                                 <a class="button hollow btnBlack small expanded" onclick="showDetails(this)" data-button="Успейте пока акция не кончилась" data-descript="Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. Наш менеджер свяжется с Вами в указанное вами время. </br> Гарантируем конфеденциальность ваших данных."  href="#forma">Попаcть под акцию</a>
+                              </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Countdown Timers End -->
+      <div class="mainWrapper">
+        
+         <!-- Portfolio 3cols Masonry Ends -->
+         <div class="bgWhite">
+            <div class="row padding clearfix" id="yslygi">
+               <h3 class="text-center">Ключевые услуги</h3>
+               <!--           <div class="dividerCenter"></div>
+                  <p class="text-center">3 Column Grid style, center-aligned icon boxes.</p> -->
+               <div class="marginTop small-12 columns">
+                  <!-- Centered Grid Icon Boxes Start -->
+                  <div class="iconBox row" data-equalizer>
+                     <div class="small-12 medium-6 large-4 columns" data-equalizer-watch>
+                        <span class="icon-tools2"></span>
+                        <h5>Дизайн</h5>
+                        <p class="smallText fontrazm20">Разработка фирменного стиля и логотипов для вашей компании.</p>
+                        <a onclick="showDetails(this)" data-button="Консультация на разработку фирменного стиля и разработку" data-descript="Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. Наш менеджер свяжется с Вами в указанное вами время. </br> Гарантируем конфеденциальность ваших данных."  href="#forma" class="link">Заказать консультацию &#10003 </a>
+                     </div>
+                     <div class="small-12 medium-6 large-4 columns" data-equalizer-watch>
+                        <span class="icon-gears"></span>
+                        <h5>Разрабротка</h5>
+                        <p class="smallText fontrazm20">Разрабатываем продающие сайты, Landing page, интернет магазины, корпоративные сайты.</p>
+                        <a onclick="showDetails(this)" data-button="Консультация на разработку сайта" data-descript="Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. Наш менеджер свяжется с Вами в указанное вами время. </br> Гарантируем конфеденциальность ваших данных."  href="#forma" class="link">Заказать консультацию &#10003 </a>
+                     </div>
+                     <div class="small-12 medium-6 large-4 columns" data-equalizer-watch>
+                        <span class="icon-compass"></span>
+                        <h5>Продвижение</h5>
+                        <p class="smallText fontrazm20">Продвижение вашего бизнеса в интернете. Увеличение целевого трафика. SEO продвижение.</p>
+                        <a onclick="showDetails(this)" data-button="Консультация на продвижение бизнеса" data-descript="Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. Наш менеджер свяжется с Вами в указанное вами время. </br> Гарантируем конфеденциальность ваших данных."  href="#forma" class="link">Заказать консультацию &#10003 </a>
+                     </div>
+                     <div class="small-12 medium-6 large-4 columns" data-equalizer-watch>
+                        <span class="icon-trophy2"></span>
+                        <h5>Маркетинг</h5>
+                        <p class="smallText fontrazm20">Услуги Email маркетинга. И маркетинг нацеленный на увеличение продаж.</p>
+                        <a onclick="showDetails(this)" data-button="Консультация по Email-маркетингу" data-descript="Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. Наш менеджер свяжется с Вами в указанное вами время. </br> Гарантируем конфеденциальность ваших данных."  href="#forma" class="link">Заказать консультацию &#10003 </a>
+                     </div>
+                     <div class="small-12 medium-6 large-4 columns" data-equalizer-watch>
+                        <span class="icon-beaker"></span>
+                        <h5>Аудит</h5>
+                        <p class="smallText fontrazm20">Коммерческий, технический, SEO, продаж аудиты, с гарантированным результатом.</p>
+                        <a onclick="showDetails(this)" data-button="Консультация на аудит существующего проекта" data-descript="Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. Наш менеджер свяжется с Вами в указанное вами время. </br> Гарантируем конфеденциальность ваших данных."  href="#forma" class="link">Заказать консультацию &#10003 </a>
+                     </div>
+                     <div class="small-12 medium-6 large-4 columns" data-equalizer-watch>
+                        <span class="icon-adjustments"></span>
+                        <h5>Контекстная реклама</h5>
+                        <p class="smallText fontrazm20">Настройка контекстной рекламы в Яндекс.Директ и Google Advords от 2500 слов для рекламной кампании.</p>
+                        <a onclick="showDetails(this)" data-button="Консультация по контекстной рекламе" data-descript="Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. Наш менеджер свяжется с Вами в указанное вами время. </br> Гарантируем конфеденциальность ваших данных."  href="#forma" class="link">Заказать консультацию &#10003 </a>
+                     </div>
+                  </div>
+				   <div class="small-12 medium-12 large-9 small-centered columns">
+                                 <a class="button hollow btnBlack small expanded" onclick="showDetails(this)" data-button="Успейте пока акция не кончилась" data-descript="Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. Наш менеджер свяжется с Вами в указанное вами время. </br> Гарантируем конфеденциальность ваших данных."  href="#forma">Не знаете, что вам нужно?</a>
+                              </div>
+                  <!-- Centered Grid Icon Boxes End -->
+               </div>
+            </div>
+         </div>
+		 
+		 
+		  <!-- Portfolio 3cols Masonry Starts -->
+<!--        <div class="bgGrey">
+        <div class="row">
+          <div class="small-12 columns">
+            <div id="filters" class="folioNav">
+              <a data-filter="*" class="is-checked">Все</a>
+              <a data-filter=".webdesign">Web Design</a>
+              <a data-filter=".branding">Branding</a>
+              <a data-filter=".development">Development</a>
+              <a data-filter=".ux-ui">UX / UI</a>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="bgWhite">
+        <div class="projectsWrapper portfolioFull">
+          <ul id="gallery" class="small-12 folioMasonry-3 portfolio no-bullet">
+      
+            <!-- Gallery Item 01-->
+            <li class="gallery-item development webdesign">
+              <a href="img/загруженное.jpg" class="relPosition">
+                  <img src="img/Screenshot_1.jpg" alt="">
+                  <!-- <img src="img/загруженное.jpg" alt=""> -->
+                  <div class="imageHover">
+                    <span class="icon-plus2"></span>
+                  </div>
+                </a>
+                <div class="folioDesc">
+                  <!-- <p>Окна прогресса</p> -->
+                  <span class="smallText">Окна прогресса</span>
+                </div>
+            </li>
+            
+            <!-- Gallery Item 02 -->
+            <li class="gallery-item branding webdesign">
+                <a href="img/port44.jpg" class="relPosition">
+                  <img src="img/port4.jpg" alt="Gallery Item">
+                  <div class="imageHover">
+                    <span class="icon-plus2"></span>
+                  </div>
+                </a>
+                <div class="folioDesc">
+                  <!-- <p>Project Title Two</p> -->
+                  <span class="smallText">Пресс форма</span> 
+                </div>
+            </li>
+
+            <!-- Gallery Item 03 -->
+            <li class="gallery-item ux-ui">
+                <a href="img/port55.jpg" class="relPosition">
+                  <img src="img/port5.jpg" alt="Gallery Item">
+                  <div class="imageHover">
+                    <span class="icon-plus2"></span>
+                  </div>
+                </a>
+                <div class="folioDesc">
+                  <!-- <p>Project Title Three</p> -->
+                  <span class="smallText">Буквариус</span> 
+                </div>
+            </li>
+
+            <!-- Gallery Item 04 -->
+            <li class="gallery-item webdesign ux-ui">
+                <a href="img/port3.jpg" class="relPosition">
+                  <img src="img/port3.jpg" alt="Gallery Item">
+                  <div class="imageHover">
+                    <span class="icon-plus2"></span>
+                  </div>
+                </a>
+                <div class="folioDesc">
+                  <!-- <p>Project Title Four</p> -->
+                  <span class="smallText">Ремонт и отделка</span>  
+                </div>
+            </li>
+
+            <!-- Gallery Item 05 -->
+            <li class="gallery-item webdesign development">
+                <a href="img/port77.jpg" class="relPosition">
+                  <img src="img/port7.jpg" alt="Gallery Item">
+                  <div class="imageHover">
+                    <span class="icon-plus2"></span>
+                  </div>
+                </a>
+                <div class="folioDesc">
+                  <!-- <p>Project Title Five</p> -->
+                  <span class="smallText">Биодобавки</span> 
+                </div>
+            </li>
+
+           
+
+
+            <!-- Gallery Item 08 -->
+       <!--      <li class="gallery-item branding webdesign">
+                <a href="portfolio-single-2.html" class="relPosition">
+                  <img src="img/portfolio/3col-masonry/thumb-masonry-3.jpg" alt="Gallery Item">
+                  <div class="imageHover">
+                    <span class="icon-plus2"></span>
+                  </div>
+                </a>
+                <div class="folioDesc">
+                  <p>Project Title Eight</p>
+                  <span class="smallText">Branding, Web Design</span>
+                </div>
+            </li> -->
+
+          
+
+          </ul>
+
+          <script>
+            jQuery(window).load(function() {
+
+              var $container = $('.portfolio');
+
+              $container.isotope({
+                      itemSelector: '.gallery-item',
+                      filter: '*',
+                      transitionDuration: '0.7s',
+                      masonry: {
+                    // columnWidth: 380,
+                    gutter: 0
+                  }
+                  });
+
+                // filter items on button click
+                $('#filters').on('click', 'a', function () {
+                    var filterValue = $(this).attr('data-filter');
+                    $container.isotope({ filter: filterValue });
+                });
+
+                // change is-checked class on buttons
+                $('#filters a').click(function () {
+                    $('#filters a').removeClass('is-checked');
+                    $(this).addClass('is-checked');
+                    var selector = $(this).attr('data-filter');
+                    $container.isotope({ filter: selector });
+                    return false;
+                });
+
+                $container.imagesLoaded().progress( function() {
+                  $container.isotope('layout');
+                });
+              
+            });
+          </script>
+        </div>
+      </div>
+      <!-- Portfolio 3cols Masonry Ends -->
+		 
+		 
+		 
+		 
+		 <div class="bgWhite">
+        <div class="row padding clearfix">
+          <h3 class="text-center">Используем современные технологии</h3>
+          <div class="dividerCenterBlack"></div>
+          <p class="text-center">Именно поэтому наши проекты такие успешные</p>
+        </div>
+      </div>
+ <!-- Solid Grid Icon Boxes Start -->
+      <ul class="row stretched solidBox small-up-1 medium-up-3 large-up-3 no-bullet" data-equalizer>
+
+        <li class="bgColor column" data-equalizer-watch>
+          <div>
+            <h5>Мультилендинг</h5>
+            <p class="smallText">Автоматическая смена контента и предложения на вашей странице под конкретный запрос вашего клиента.</p>
+            <a class="link" onclick="showDetails(this)" data-button="Узнать как мультилендинг сможет вам помочь" data-descript="Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. Наш менеджер свяжется с Вами в указанное вами время. </br> Гарантируем конфеденциальность ваших данных."  href="#forma">Узнать как это поможет вам<span class="icon-arrow-right"></span></a>
+            <span class="icon-mobile2 solidBoxIcon"></span>
+          </div>
+        </li>
+
+        <li class="bgWhite column" data-equalizer-watch>
+          <div>
+            <h5>Геотаргетинг</h5>
+            <p class="smallText">Если у вас офисы находятся в разных городах. Эта технология отобразить разную информацию для клиентов из разных городов.</p>
+            <a class="link" onclick="showDetails(this)" data-button="Охватите все регионы нашей страны" data-descript="Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. Наш менеджер свяжется с Вами в указанное вами время. </br> Гарантируем конфеденциальность ваших данных."  href="#forma">Узнать как это поможет вам <span class="icon-arrow-right"></span></a>
+            <span class="icon-map2 solidBoxIcon"></span>
+          </div>
+        </li>
+
+        <li class="bgBlack column" data-equalizer-watch>
+          <div>
+            <h5>СМС уведомления</h5>
+            <p class="smallText">Уведомляйте прямо на телефон ваших клиентов. Разгрузите ваш отдел клиентов. Станьте клиентоориентированным.</p>
+            <a class="link" onclick="showDetails(this)" data-button="Подключить смс уведомления" data-descript="Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. Наш менеджер свяжется с Вами в указанное вами время. </br> Гарантируем конфеденциальность ваших данных."  href="#forma">Подключить смс уведомления <span class="icon-arrow-right"></span></a>
+            <span class="icon-phone3 solidBoxIcon"></span>
+          </div>
+        </li>
+
+      </ul>
+	  
+	  
+      <!-- Solid Grid Icon Boxes End -->
+<!-- 		 след блок
+		 </br>
+		 гарантия на сайт 5 лет -->
+         <div class="bgWhite">
+            <div class="row padding clearfix" id="otvet">
+               <h3 class="text-center">Часто задаваемые вопросы</h3>
+               <div class="small-12 medium-12 large-6 columns">
+                  <div class="padding">
+                     <ul class="accordion" data-accordion data-allow-all-closed="true">
+                        <li class="accordion-item is-active" data-accordion-item>
+                           <a class="accordion-title" style="font-size:25px">Какие даете гарантии?</a>
+                           <div class="accordion-content" data-tab-content>
+                              <p class="fontrazm20 borderback">Мы даем гарантию на перечень своих услуг. Если услуга не принесет вам денег, мы вернем деньги.</p>
+                           </div>
+                        </li>
+                        <li class="accordion-item" data-accordion-item>
+                           <a class="accordion-title" style="font-size:25px">Хостинг/домен предоставляте?</a>
+                           <div class="accordion-content" data-tab-content>
+                              <p class="fontrazm20 borderback">Своим клиентам мы дарим хостинг на 12 месяцев. И так же домен бесплатно.</p>
+                           </div>
+                        </li>
+                        <li class="accordion-item" data-accordion-item>
+                           <a class="accordion-title" style="font-size:25px">Как вы работаете?</a>
+                           <div class="accordion-content" data-tab-content>
+                              <p class="fontrazm20 borderback">Мы работает по договору. И работаем по предоплате 50/25/25</p>
+                           </div>
+                        </li>
+						<li class="accordion-item" data-accordion-item>
+                           <a class="accordion-title" style="font-size:25px">amoCRM что это значит?</a>
+                           <div class="accordion-content" data-tab-content>
+                              <p class="fontrazm20 borderback">Мы поможем вам внедрить amoCRM в ваш бизнес. Аккаунт в системе бесплатный на две недели.</p>
+                           </div>
+                        </li>
+						<!-- <li class="accordion-item" data-accordion-item>
+                           <a class="accordion-title" style="font-size:25px">amoCRM что это значит?</a>
+                           <div class="accordion-content" data-tab-content>
+                              <p class="fontrazm20 borderback">Мы поможем вам внедрить amoCRM в ваш бизнес. Аккаунт в системе бесплатный на две недели.</p>
+                           </div>
+                        </li> -->
+                     </ul>
+                  </div>
+               </div>
+               <div class="small-12 medium-12 large-6 columns">
+                  <div class="padding">
+                     <ul class="accordion" data-accordion data-allow-all-closed="true">
+                        <li class="accordion-item is-active" data-accordion-item>
+                           <a class="accordion-title" style="font-size:25px">Поддержка после выполнения работы?</a>
+                           <div class="accordion-content" data-tab-content>
+                              <p class="fontrazm20 borderback">После разработки сайта или другой услуги, мы поддерживаем своих клиентов на всем периоде работы с нами.</p>
+                           </div>
+                        </li>
+                        <li class="accordion-item" data-accordion-item>
+                           <a class="accordion-title" style="font-size:25px">Почту для сайта, можно сделать?</a>
+                           <div class="accordion-content" data-tab-content>
+                              <p class="fontrazm20 borderback">Для вашего проекта мы настроим почту вида login@sitename.ru. Количество адресов не ограничено. Работать почта будет через яндекс почту.</p>
+                           </div>
+                        </li>
+                        <li class="accordion-item" data-accordion-item>
+                           <a class="accordion-title" style="font-size:25px">Сроки выполнения работ?</a>
+                           <div class="accordion-content" data-tab-content>
+                              <p class="fontrazm20 borderback">Сроки работ зависят от сложности работы. Вы можете более точно узнать у проект менеджера</p>
+                           </div>
+                        </li>
+						<li class="accordion-item" data-accordion-item>
+                           <a class="accordion-title" style="font-size:25px">Кто может участвовать в акции?</a>
+                           <div class="accordion-content" data-tab-content>
+                              <p class="fontrazm20 borderback">Акция доступна для всех клиентов, кто заказывает разработку сайтов или посадочных страниц. </p>
+                           </div>
+                        </li>
+						<li class="accordion-item" data-accordion-item>
+                           <a class="accordion-title" style="font-size:25px">Что такое мультилендинг?</a>
+                           <div class="accordion-content" data-tab-content>
+                              <p class="fontrazm20 borderback">Это посадочная страница, контент которой адаптируется под запросы пользователя. Если пользователь ищет красный кирпич, то ему будет показываться красный кирпич и так же наоборт. </p>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="text-center">
+                  <a class="button hollow btnBlack hvr-shutter-in-vertical center" onclick="showDetails(this)" data-button="Задать вопрос менеджеру" data-descript="Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. Наш менеджер свяжется с Вами в указанное вами время. </br> Гарантируем конфеденциальность ваших данных."  href="#forma">Хочу задать вопрос менеджеру</a>
+               </div>
+            </div>
+         </div>
+         <!-- CTA Section Starts -->
+         <div class="bgColor">
+            <div class="lightbox" id="contact">
+               <div class="padding clearfix">
+                  <div class="iconBox row" data-equalizer>
+                     <div class="small-12 medium-4 large-4 columns" data-equalizer-watch>
+                        <span class="icon-map2"></span>
+                        <h6>г. Коломна ул. Гагарина д.7</h6>
+                     </div>
+                     <div class="small-12 medium-4 large-4 columns" data-equalizer-watch>
+                        <span class="icon-envelope2"></span>
+                        <h6>client@vitarty.ru</h6>
+                     </div>
+                     <div class="small-12 medium-4 large-4 columns" data-equalizer-watch>
+                        <span class="icon-phone3"></span>
+                        <h6>+7(985)77-55-262</h6>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="sectionSeparator"></div>
+         </div>
+         <div class="lightbox" id="forma">
+            <!-- Reservations Section -->
+            <div class="row" id="section-booking">
+               <div class="small-12 medium-12 large-5 columns bgWhite">
+                  <div class="padding">
+                     <h3 id="button">Узнайте чем мы можем Вам помочь</h3>
+                     <div class="divider"></div>
+                     <p id="descript">Укажите, пожалуйста, когда и восколько Вам позвонить, а так же Ваше имя и телефон. Наш менеджер свяжется с Вами в указанное вами время. </br> Гарантируем конфеденциальность ваших данных.</p>
+                     <p >Консультация не обязывает Вас к заказу.</p>
+                  </div>
+               </div>
+               <div class="small-12 medium-12 large-7 columns bgWhite">
+                  <div class="padding">
+                     <div id="contact">
+                        <div id="bookingform-messages"></div>
+                        <form data-abide novalidate id="contactForm" class="relPosition" name="contactForm" action="include/mailer.php" method="post">
+                           <div data-abide-error class="alert callout" style="display: none;">
+                              <p><i class="icon-caution"></i> Заполните, пожалуйста, все поля</p>
+                           </div>
+                           <div class="row">
+                              <div class="large-6 columns">
+                                 <label for="formName"></label>
+                                 <input type="text" id="formName" name="formName" placeholder="Фамилия Имя (обязательно)" required />
+                                 <small class="form-error">Введите, пожалуйста, Ваше Имя и Фамилию</small>
+                              </div>
+                              <div class="large-6 columns">
+                                 <label for="formMail"></label>
+                                 <input type="text" id="formphone" name="formphone" placeholder="Введите телефон &#040;обязательно)" required />
+                                 <small class="form-error">Введите, пожалуйста, Ваш номер телефона</small>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="large-6 columns">
+                                 <p>Во сколько Вам позвонить? </p>
+                              </div>
+                              <div class="large-6 columns">
+                                 <p>Когда?</p>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="large-6 columns">
+                                 <label for="formCompany"></label>
+                                 <input type="time" value="09:00:00" name="time">
+                              </div>
+                              <div class="large-6 columns">
+                                 <label for="formWebsite"></label>
+                                 <select name="s" >
+                                    <option value ="ham">Срочно</option>
+                                    <script type="text/javascript">
+                                       var mdate = new Date(); document.write(mdate.getHours());
+                                       if(mdate.getHours() > 18){
+                                       document.write('<option value ="Завтра" selected>Завтра</option>');
+                                       }else{
+                                       document.write('<option value ="Сегодня" selected>Сегодня</option>');
+                                       document.write('<option value ="Завтра" >Завтра</option>');
+                                       }
+                                    </script>
+                                    <option value ="milk">После завтра</option>
+                                 </select>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="large-12 columns textarea">
+                                 <label for="formMessage"></label>
+                                 <textarea id="formMessage" name="formMessage" placeholder="Опишите ваш проект (необязательно)" ></textarea>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="small-12 columns">
+                                 <button type="submit" name="formSubmit" id="formSubmit" class="button btnBlack float-right">Отправить</button>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Reservations Section End -->
+         </div>
+         <!-- Main Wrapper Ends -->
+         <!-- Footer Big Starts -->
+         <footer id="footer">
+            <div class="footerBig footerWrapper">
+               <div id="copyrights">
+                  <div class="row">
+                     <div class="small-12 medium-12 large-6 columns">
+                        <p>
+                           &copy; 2010-<script type="text/javascript">var mdate = new Date(); document.write(mdate.getFullYear());</script> Все права защищены <a href="http://VITARTY.ru" target="_blank">VITARTY.</a>
+                        </p>
+                     </div>
+                     <div class="small-12 medium-12 large-6 columns">
+                        <div id="footerNav">
+                           <a target="blank" href="privacy-policy.html">Политика конфиденциальности</a>
+                           <!-- <a href="#">About</a>/ -->
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <footer id="footer">
+            <div class="footerBig footerWrapper">
+               <div id="copyrights">
+                  <div class="row">
+                     <div class="large-12 text-center">
+                        <p>ИНН 502213033720 ОГРНИП 314502221600018</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+		 
+         <!-- Footer Big Ends -->
+      </div>
+      <a href="#0" class="backTop">Top</a>
+      <!--  <div id="switcher">
+         <div id="switcherIcon" class="icon-paintbrush"></div>
+         
+          <div class="switcherInner">
+           <div><p>Pick A Color</p></div>
+         
+           <div id="styleOptions" class="versions clearfix">
+             <a href="#" rel="css/colors/colors.css" class="bgRed"></a>
+             <a href="#" rel="css/colors/blue-grey.css" class="bgBlueGrey"></a>
+             <a href="#" rel="css/colors/blue.css" class="bgBlue"></a>
+             <a href="#" rel="css/colors/bright-green.css" class="bgBGreen"></a>
+             <a href="#" rel="css/colors/cyan.css" class="bgCyan"></a>
+             <a href="#" rel="css/colors/deep-orange.css" class="bgOrange"></a>
+             <a href="#" rel="css/colors/green.css" class="bgGreen"></a>
+             <a href="#" rel="css/colors/indigo.css" class="bgIndigo"></a>
+             <a href="#" rel="css/colors/light-brown.css" class="bgBrown"></a>
+             <a href="#" rel="css/colors/purple.css" class="bgPurple"></a>
+             <a href="#" rel="css/colors/yellow.css" class="bgYellow"></a>
+           </div>
+         </div>
+         </div>
+         
+         <div id="buy">
+         <div id="buyIcon" class="icon-basket"></div>
+         <div class="buyInner">
+           <div><a href="http://themeforest.net/item/altius-multipurpose-html5-template/13337089">Purchase Now</a></div>
+         </div>
+         </div> -->
+		 
+	
+      <!-- Scripts -->
+      <script src="js/vendor/modernizr.js"></script>
+      <script src="js/vendor/what-input.min.js"></script>
+      <script src="js/foundation.min.js"></script>
+      <script src="js/plugins.js"></script>
+      <script src="js/functions.js"></script>
+      <script src="js/ajax-form.js"></script>
+      <script src="js/vendor/jquery.cookie.js"></script>
+      <script src="js/style-switcher.js"></script>
+      <!-- <script src="js/smartlid.js"></script> -->
+   </body>
+</html>
